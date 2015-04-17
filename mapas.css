@@ -2,6 +2,30 @@ body {
     padding: 0;
     margin: 0;
 }
-html, body, #map {
-    height: 100%;
+
+#map{
+  height: 100%;
+  
+}
+#search { 
+   
+   position: absolute; 
+   bottom: 40px; 
+   left: 5px; 
+   width: auto; 
+   height: auto; 
+   padding: 10px; 
+}
+#search input { 
+   width: 200px; 
+ } 
+#results { 
+   background-color: white;
+   font-style: sans-serif; 
+   color: black; 
+   font-size: 75%; 
+ } 
+#valores{
+  
+   opacity: 0.8;
 }
